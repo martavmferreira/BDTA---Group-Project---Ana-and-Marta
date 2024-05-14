@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2cacdb3a8eeb26e70c02d3e342aab3bd {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_2cacdb3a8eeb26e70c02d3e342aab3bd" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_2cacdb3a8eeb26e70c02d3e342aab3bd = L.map(
+                "map_2cacdb3a8eeb26e70c02d3e342aab3bd",
+                {
+                    center: [39.3999, -8.2245],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 8,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_24ac73eb0ac5043aa31a925f70528cba = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_24ac73eb0ac5043aa31a925f70528cba.addTo(map_2cacdb3a8eeb26e70c02d3e342aab3bd);
+        
+    
+            var marker_d520c5b59b14e03b2efb24a17bf1e228 = L.marker(
+                [38.69840499127016, -9.23810536246993],
+                {}
+            ).addTo(map_2cacdb3a8eeb26e70c02d3e342aab3bd);
+        
+    
+        var popup_2821f0691a2e81f5426c326b975b90a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14a797b211cfcca6621944fa65ba171e = $(`<div id="html_14a797b211cfcca6621944fa65ba171e" style="width: 100.0%; height: 100.0%;">NOS ALIVE</div>`)[0];
+                popup_2821f0691a2e81f5426c326b975b90a4.setContent(html_14a797b211cfcca6621944fa65ba171e);
+            
+        
+
+        marker_d520c5b59b14e03b2efb24a17bf1e228.bindPopup(popup_2821f0691a2e81f5426c326b975b90a4)
+        ;
+
+        
+    
+    
+            var marker_3c988ca2989f5d5251e5ab691508228b = L.marker(
+                [38.78566263943525, -9.092905520136062],
+                {}
+            ).addTo(map_2cacdb3a8eeb26e70c02d3e342aab3bd);
+        
+    
+        var popup_120128816ce90c53e9e621ec80e2b561 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4931d23a862a4f619922808081b1554c = $(`<div id="html_4931d23a862a4f619922808081b1554c" style="width: 100.0%; height: 100.0%;">ROCK IN RIO</div>`)[0];
+                popup_120128816ce90c53e9e621ec80e2b561.setContent(html_4931d23a862a4f619922808081b1554c);
+            
+        
+
+        marker_3c988ca2989f5d5251e5ab691508228b.bindPopup(popup_120128816ce90c53e9e621ec80e2b561)
+        ;
+
+        
+    
+    
+            var marker_ff21c124d90dee7a5a37dd5d224982c2 = L.marker(
+                [37.55441883342442, -8.731169743495334],
+                {}
+            ).addTo(map_2cacdb3a8eeb26e70c02d3e342aab3bd);
+        
+    
+        var popup_12543984a9f089e14fa4a6da83b84be4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c256aa5a5bf2b08788c9734ee1ed519 = $(`<div id="html_4c256aa5a5bf2b08788c9734ee1ed519" style="width: 100.0%; height: 100.0%;">MEO SUDOESTE</div>`)[0];
+                popup_12543984a9f089e14fa4a6da83b84be4.setContent(html_4c256aa5a5bf2b08788c9734ee1ed519);
+            
+        
+
+        marker_ff21c124d90dee7a5a37dd5d224982c2.bindPopup(popup_12543984a9f089e14fa4a6da83b84be4)
+        ;
+
+        
+    
+    
+            var marker_d0cb91964048c6f12678812185564598 = L.marker(
+                [38.52589461321114, -9.146853563335743],
+                {}
+            ).addTo(map_2cacdb3a8eeb26e70c02d3e342aab3bd);
+        
+    
+        var popup_4df1bcf968a521e62b71678797786ffb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_05517ecbc185ccd21a41497e99449ecb = $(`<div id="html_05517ecbc185ccd21a41497e99449ecb" style="width: 100.0%; height: 100.0%;">SUPER BOCK SUPER ROCK</div>`)[0];
+                popup_4df1bcf968a521e62b71678797786ffb.setContent(html_05517ecbc185ccd21a41497e99449ecb);
+            
+        
+
+        marker_d0cb91964048c6f12678812185564598.bindPopup(popup_4df1bcf968a521e62b71678797786ffb)
+        ;
+
+        
+    
+    
+            var marker_1941789fbca6780e82f5371d155977bc = L.marker(
+                [41.95845113232415, -8.536732035071669],
+                {}
+            ).addTo(map_2cacdb3a8eeb26e70c02d3e342aab3bd);
+        
+    
+        var popup_67b69a88475998eb0323489be43e4645 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb154adc842e4aa7e465a9dc59f1018c = $(`<div id="html_fb154adc842e4aa7e465a9dc59f1018c" style="width: 100.0%; height: 100.0%;">VODAFONE PAREDES DE COURA</div>`)[0];
+                popup_67b69a88475998eb0323489be43e4645.setContent(html_fb154adc842e4aa7e465a9dc59f1018c);
+            
+        
+
+        marker_1941789fbca6780e82f5371d155977bc.bindPopup(popup_67b69a88475998eb0323489be43e4645)
+        ;
+
+        
+    
+</script>
+</html>
